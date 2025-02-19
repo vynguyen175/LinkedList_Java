@@ -96,7 +96,7 @@ class LinkedList{
             }
             Node current,prev;
             current=prev=head;
-            while (current!=null && item>current.data) {
+            while (current!=null && item!=current.data) {
                 prev=current;
                 current=current.next;
             }
